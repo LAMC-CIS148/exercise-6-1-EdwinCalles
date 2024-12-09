@@ -86,7 +86,8 @@ main blockquote {
 section {
 	float: right;
 	width: 525px;
-	padding: 20px 20px 20px 20px;
+	padding: 20px;
+}
 
 /* the styles for the article */
 article {
@@ -111,9 +112,9 @@ article img {
 }
 	
 aside {
-float: right;
-width: 215px;
-padding: 20px 0 20px 20px;
+	float: right;
+	width: 215px;
+	padding: 20px 0 20px 20px;
 }
 
 aside h3 {
