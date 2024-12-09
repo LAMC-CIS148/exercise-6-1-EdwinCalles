@@ -9,7 +9,7 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -52,12 +52,7 @@ main {
 main {
 	padding: 0 30px;
 }
-main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-}
+
 main h2 {
 	color: #800000;
 	font-size: 130%;
@@ -111,9 +106,21 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	clear: both;
 }
 footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+
+section {
+	float: right;
+	width: 525px;
+	padding: 20px;
+}
+
+aside {
+	width: 215px;
+	float: right;
 }
