@@ -45,13 +45,6 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-/* the styles for the main content */
-main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
-}
 
 main h2 {
 	color: #800000;
@@ -118,9 +111,12 @@ section {
 	float: right;
 	width: 525px;
 	padding: 20px;
+	padding-bottom: 20px;
 }
 
 aside {
 	width: 215px;
 	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
