@@ -2,6 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 html {
 	background-color: white;
@@ -46,9 +47,7 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-main {
-	clear: left;
-}
+
 main {
 	padding: 0 30px;
 }
@@ -66,6 +65,24 @@ main h2 {
 	padding: .5em 0 .25em 0;
 }
 
+main h3 {
+  font-size: 105%;
+  padding-bottom: 0.25em;
+}
+
+main img {
+  padding-bottom: 1em;
+}
+
+main p {
+  padding-bottom: 0.5em;
+}
+
+main blockquote {
+  padding: 0 2em;
+  font-style: italic;
+}
+
 section {
 	float: right;
 	width: 525px;
@@ -77,11 +94,35 @@ article {
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
 }
+	
+article h2 {
+  padding-top: 0;
+}
 
+article h3 {
+  font-size: 105%;
+  padding-bottom: 0.25em;
+}
+
+article img {
+  float: right;
+  margin: 10px 10px 10px 0;
+  border: 1px solid black;
+}
+	
 aside {
 	float: right;
 	width: 215px;
 	padding: 20px 0 20px 20px;
+}
+
+aside h3 {
+  font-size: 105%;
+  padding-bottom: 0.25em;
+}
+
+aside img {
+  padding-bottom: 1em;
 }
 
 /* the styles for the footer */
@@ -95,10 +136,4 @@ footer {
 }
 footer p {
 	margin: 0;
-}
-
-article img {
-	float: right;
-	margin: 10px 10px 10px 0;
-	border: 1px solid black;
 }
