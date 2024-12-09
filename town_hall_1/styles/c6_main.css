@@ -46,6 +46,11 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 
+main h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+}
+
 main h2 {
 	color: #800000;
 	font-size: 130%;
@@ -84,6 +89,13 @@ article h2 {
 article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
+}
+
+article img {
+  float: right;
+  padding-top: .5ems;
+  padding-bottom: .25ems;
+  border: 1px solid black;
 }
 
 /* the styles for the aside */
