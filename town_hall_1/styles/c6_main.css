@@ -48,7 +48,7 @@ header img {
 /* the styles for the main content */
 
 main {
-	padding: 0 30px;
+	clear: left;
 }
 
 main {
@@ -58,7 +58,6 @@ main {
 main h1 {
 	font-size: 150%;
 	padding: 0.5em 0 0.25em 0;
-	margin: 0; 
 	border-top: 3px solid #931420;
 	border-bottom: 3px solid #931420;
 }
@@ -133,12 +132,9 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  margin-top: 20px;
-  border-top: 3px solid #800000;
 }
 footer p {
-	margin: 0;
+	text-align: center;
+	color: white;
+	padding: 1em 0;
 }
