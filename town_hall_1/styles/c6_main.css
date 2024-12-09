@@ -83,6 +83,13 @@ main blockquote {
   font-style: italic;
 }
 
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+
 section {
 	float: right;
 	width: 525px;
