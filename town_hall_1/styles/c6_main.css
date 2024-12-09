@@ -93,8 +93,8 @@ article h3 {
 
 article img {
   float: right;
-  padding-top: .5ems;
-  padding-bottom: .25ems;
+  padding-top: .5em;
+  padding-bottom: .25em;
   border: 1px solid black;
 }
 
